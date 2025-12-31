@@ -343,11 +343,11 @@ export default function HomePage() {
                         <strong>Efficiency:</strong> {product.efficiency}
                       </div>
                       
-                      <Button className="w-full bg-blue-600 hover:bg-blue-700">
-                        <Link href={`/products/${product.id}`}>
+                      <Link href={`/products/${product.id}`} className="w-full">
+                        <Button className="w-full bg-blue-600 hover:bg-blue-700">
                           Learn More
-                        </Link>
-                      </Button>
+                        </Button>
+                      </Link>
                     </CardContent>
                   </div>
                 </div>
